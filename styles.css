@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  /*background-color: lightgray;*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Arial', sans-serif;
+}
+
+body{
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  width: 275px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline red;
+  text-transform: uppercase;
+  color: black;
+
+}
+
+#customers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 20vw;
+}
+
+p {
+  color: gray;
+  text-align: center;
+  font-size: 13px;
+  line-height: 4px;
+}
